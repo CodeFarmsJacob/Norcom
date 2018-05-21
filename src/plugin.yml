@@ -1,0 +1,15 @@
+name: hp
+version: 1
+main: com.jellybeans.hp.main
+
+commands:
+
+    spawn:
+        usage: /<command>
+        description: Teleports you to spawn.
+    giveS:
+        usage: /<command> [item] [player]
+        description: Give player an item unique to the server.
+    tier:
+        usage: /<command> [player] [level]
+        description: Sets players tier to specified level in the config.
